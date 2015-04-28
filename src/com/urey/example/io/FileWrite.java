@@ -10,15 +10,14 @@ public class FileWrite {
 		fileWriteDemo("test", "This is test");
 	}
 	
-	/**将备份的内容先写入文件*/
 	public static File fileWriteDemo(String title,String content){
 		//default path
-		File file = new File("E:\\");
+		File file = new File("D:\\");
 		if (! file.exists()) {
 			file.mkdirs();
 		}
 		
-		String filePath = "E:\\" + title + ".txt";
+		String filePath = "D:\\" + title + ".txt";
 		File tempFile = new File(filePath);
 		if (! tempFile.exists()) {
 			try {
@@ -32,7 +31,7 @@ public class FileWrite {
 		BufferedWriter bw = null;
 		
 		try {
-			fw = new FileWriter(tempFile);
+			fw = new FileWriter(tempFile, true);
 			bw = new BufferedWriter(fw);
 //			bw.newLine();
 			bw.write(content);

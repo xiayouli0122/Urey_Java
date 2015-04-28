@@ -2,5 +2,17 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="D:/Dev/Jar_File/pinyin4j-2.5.0/lib/pinyin4j-2.5.0.jar"/>
+	<classpathentry kind="lib" path="/ChengYu/libs/poi-ooxml-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="/ChengYu/libs/poi-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="/ChengYu/libs/poi-examples-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="/ChengYu/libs/poi-excelant-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="/ChengYu/libs/poi-ooxml-schemas-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="/ChengYu/libs/poi-scratchpad-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="/ChengYu/libs/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="/ChengYu/libs/stax-api-1.0.1.jar"/>
+	<classpathentry kind="lib" path="/ChengYu/libs/xmlbeans-2.3.0.jar"/>
+	<classpathentry kind="lib" path="D:/Dev/Jar_File/JLayer1.0.1/jl1.0.1.jar"/>
+	<classpathentry kind="lib" path="D:/Dev/Jar_File/jaudiotagger-2.0.4-20130131.171158-16.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
